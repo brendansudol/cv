@@ -1,0 +1,25 @@
+foo: bar
+
+fruits:
+  - Apple
+  - Orange
+  - Strawberry
+  - Mango
+
+projects:
+- title: Entry 1
+  summary: |
+    Intro sentence...
+
+    * Bullet 1
+    * Bullet 2
+    * Bullet 3
+
+    More stuff down here...
+
+- title: Entry 2
+  summary: |
+    This is **bolded**.
+
+- title: Entry 3
+  summary: Small description...
