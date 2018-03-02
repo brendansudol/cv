@@ -2,11 +2,12 @@ import React from 'react'
 
 const Speaking = ({ data }) => (
   <div>
-    <h2 className="h3 lower">Speaking</h2>
-    {data.map((d, i) => (
-      <code key={i} className="mb1 block">
-        {JSON.stringify(d)}
-      </code>
+    <h2 className="mb2 h3">Speaking</h2>
+    {data.map(({ venue, location, date, title, slides }, i) => (
+      <p key={i}>
+        {venue}, {location}, {date}, <span className="italic">{title}</span>,{' '}
+        <a href={slides}>Slides</a>
+      </p>
     ))}
   </div>
 )

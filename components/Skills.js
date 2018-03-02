@@ -2,12 +2,8 @@ import React from 'react'
 
 const Skills = ({ data }) => (
   <div>
-    <h2 className="h3 lower">Skills & Experience</h2>
-    {data.map((d, i) => (
-      <code key={i} className="mb1 block">
-        {JSON.stringify(d)}
-      </code>
-    ))}
+    <h2 className="mb2 h3">Skills & Experience</h2>
+    <p>{data.join(', ')}</p>
   </div>
 )
 

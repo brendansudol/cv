@@ -32,9 +32,13 @@ const extraCss = `
     margin-bottom: 1em;
   }
 
-  .container { max-width: 700px; }
+  a { color: #0071dc; }
+
+  .container { max-width: 650px; }
+  .caps { text-transform: uppercase; letter-spacing: .1em; }
   .lower { text-transform: lowercase; }
   .mb05 { margin-bottom: 0.25rem; }
+  .list-flush { padding-left: 1.2em; }
 `
 
 const Head = ({ title }) => (

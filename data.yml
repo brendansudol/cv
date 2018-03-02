@@ -23,13 +23,12 @@ work:
     track business metrics, and identify product opportunities using data.
   - Provided consulting on modern web practices and engineering systems to
     Department of Labor, CMS, NEA; conducted interviews for Engineering chapter
-    candidates; automated accessibility audits across government websites; _Led
-    the creation and launch of TTS Hackathons_.
+    candidates; automated accessibility audits across government websites
 
 - title: Adjunct Professor
   employer: American University
   time: 2018 — Present
-  intro: |
+  intro: >-
     Co-teach an Introduction to Programming course (entitled "Computers and the
     Law") at American University's Washington College of Law. The course teaches
     students how to program using Python and how to apply those skills in the legal
@@ -73,7 +72,7 @@ work:
 - title: Analyst
   employer: Cornerstone Research
   time: 2010 — 2012
-  intro: |
+  intro: >-
     Designed and maintained the quantitative models supporting economic and
     financial experts in corporate litigation cases pertaining to securities
     (regression analysis), wage discrimination (lifetime earnings modeling), and
@@ -83,7 +82,7 @@ work:
 - title: Founder
   employer: Zigzag LLC
   time: 2014 — Present
-  intro: |
+  intro: >-
     Owner of Zigzag LLC, a software consultancy specializing in web applications and
     data science projects. Clients include global nonprofits, hedge funds, and
     startups.
@@ -130,13 +129,13 @@ opensource:
   - name: FBI Crime Data Explorer
     url: https://crime-data-explorer.fr.cloud.gov
     code: https://github.com/18F/crime-data-frontend
-    description: >
+    description: >-
       crime trends and datasets at the national, state, and agency levels
 
   - name: Medicaid HITECH
     url: ~
     code: https://github.com/18F/cms-hitech-apd
-    description: >
+    description: >-
       simplifies process of states requesting money from CMS for projects related
       to Medicaid
   Personal:
@@ -148,7 +147,7 @@ opensource:
   - name: Better Know Your Area
     url: http://betterknowyourarea.com
     code: https://github.com/brendansudol/better-know-your-area
-    description: >
+    description: >-
       a quick view into social, economic, and housing data across the U.S.
 
   - name: DC Food Trucks Today
