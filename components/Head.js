@@ -44,8 +44,10 @@ const css = `
   .mono { font-family: 'Courier Next', courier, monospace; }
   .caps { text-transform: uppercase; letter-spacing: .1em; }
   .lower { text-transform: lowercase; }
+  .bold { font-weight: 600; }
   .fw-800 { font-weight: 800; }
   .mb05 { margin-bottom: 0.25rem; }
+  .mr05 { margin-right: 0.25rem; }
   .list-flush { padding-left: 1.2em; }
 
   .heading:after {
@@ -61,6 +63,7 @@ const css = `
     html { font-size: 13px; }
     a { color: #111; }
     .container { max-width: 960px; }
+    .print-hide { display: none !important; }
   }
 `
 
@@ -70,6 +73,7 @@ const Head = ({ title }) => (
   <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
     <title>{title}</title>
     <link

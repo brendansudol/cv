@@ -1,3 +1,4 @@
+import marked from 'marked'
 import React from 'react'
 
 import Heading from './Heading'
@@ -11,7 +12,7 @@ const WorkHistory = ({ data }) => (
           {title}, {employer}
         </h3>
         <p className="mb1 h5 mono">{time}</p>
-        {intro && <p>{intro}</p>}
+        {intro && <div dangerouslySetInnerHTML={{ __html: marked(intro) }} />}
         {bullets && (
           <ul className="list-flush">
             {bullets.map((b, i) => (
