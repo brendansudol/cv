@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "babel-node run.js > index.html",
+    "build": "babel-node run.js > public/index.html",
     "dev": "npm run serve & npm run watch",
     "prettier": "prettier --single-quote --trailing-comma es5 --semi false --write \"**/*.js\"",
     "serve": "http-server",
     "start": "npm run build",
-    "watch": "nodemon -e js,yml --exec 'npm run build'"
+    "watch": "nodemon -e js,yml --exec 'npm run build'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "clean-css": "^4.1.9",
@@ -23,15 +25,12 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "gh-pages": "^1.1.0",
     "http-server": "^0.11.1",
     "nodemon": "^1.17.1",
     "prettier": "^1.11.1"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react",
-      "stage-2"
-    ]
+    "presets": ["env", "react", "stage-2"]
   }
 }

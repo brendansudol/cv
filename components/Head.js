@@ -69,8 +69,9 @@ const extraCss = { __html: new CleanCSS({}).minify(css).styles }
 const Head = ({ title }) => (
   <head>
     <meta charSet="utf-8" />
-    <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png" />
+    <title>{title}</title>
     <link
       href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css"
       rel="stylesheet"
