@@ -7,7 +7,8 @@
     "dev": "npm run serve & npm run watch",
     "build": "babel-node build.js > index.html",
     "serve": "http-server",
-    "watch": "nodemon -e js,yml --exec 'npm run build'"
+    "watch": "nodemon -e js,yml --exec 'npm run build'",
+    "prettier": "prettier --single-quote --trailing-comma es5 --semi false --write \"**/*.js\""
   },
   "dependencies": {
     "js-yaml": "^3.10.0",
@@ -22,13 +23,10 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "http-server": "^0.11.1",
-    "nodemon": "^1.17.1"
+    "nodemon": "^1.17.1",
+    "prettier": "^1.11.1"
   },
   "babel": {
-    "presets": [
-      "env",
-      "react",
-      "stage-2"
-    ]
+    "presets": ["env", "react", "stage-2"]
   }
 }
