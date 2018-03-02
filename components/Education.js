@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Heading from './Heading'
+
 const Education = ({ text }) => (
   <div>
-    <h2 className="h3">Education</h2>
+    <Heading>Education</Heading>
     <p>{text}</p>
   </div>
 )

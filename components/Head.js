@@ -1,7 +1,10 @@
 import React from 'react'
+import CleanCSS from 'clean-css'
 
-const extraCss = `
+const css = `
   * { box-sizing: border-box; }
+
+  html { font-size: 14px; }
 
   body {
     font-family:
@@ -32,14 +35,36 @@ const extraCss = `
     margin-bottom: 1em;
   }
 
-  a { color: #0071dc; }
+  a {
+    color: #0071dc;
+    text-decoration-skip-ink: auto;
+  }
 
   .container { max-width: 650px; }
+  .mono { font-family: 'Courier Next', courier, monospace; }
   .caps { text-transform: uppercase; letter-spacing: .1em; }
   .lower { text-transform: lowercase; }
+  .fw-800 { font-weight: 800; }
   .mb05 { margin-bottom: 0.25rem; }
   .list-flush { padding-left: 1.2em; }
+
+  .heading:after {
+    content: ' ';
+    display: block;
+    margin-top: 0.375rem;
+    width: 2rem;
+    border: 2px solid #eee;
+    border-radius: 0.25rem;
+  }
+
+  @media print {
+    html { font-size: 13px; }
+    a { color: #111; }
+    .container { max-width: 960px; }
+  }
 `
+
+const extraCss = { __html: new CleanCSS({}).minify(css).styles }
 
 const Head = ({ title }) => (
   <head>
@@ -50,7 +75,9 @@ const Head = ({ title }) => (
       href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css"
       rel="stylesheet"
     />
-    <style dangerouslySetInnerHTML={{ __html: extraCss.replace(/\s/g, '') }} />
+    <style
+      dangerouslySetInnerHTML={{ __html: new CleanCSS().minify(css).styles }}
+    />
   </head>
 )
 

@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Heading from './Heading'
+
 const Misc = () => (
   <div>
-    <h2 className="h3">Accolades</h2>
+    <Heading>Accolades</Heading>
     <p>
       Time Magazine Person of the Year:{' '}
       <a href="http://content.time.com/time/magazine/article/0,9171,1570810,00.html">

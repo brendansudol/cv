@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Heading from './Heading'
+
 const Skills = ({ data }) => (
   <div>
-    <h2 className="mb2 h3">Skills & Experience</h2>
+    <Heading>Skills & Experience</Heading>
     <p>{data.join(', ')}</p>
   </div>
 )

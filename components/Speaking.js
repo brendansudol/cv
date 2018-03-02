@@ -1,8 +1,10 @@
 import React from 'react'
 
+import Heading from './Heading'
+
 const Speaking = ({ data }) => (
   <div>
-    <h2 className="mb2 h3">Speaking</h2>
+    <Heading>Speaking</Heading>
     {data.map(({ venue, location, date, title, slides }, i) => (
       <p key={i}>
         {venue}, {location}, {date}, <span className="italic">{title}</span>,{' '}

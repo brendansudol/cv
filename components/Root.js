@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Education from './Education'
+import Footer from './Footer'
 import Head from './Head'
 import Header from './Header'
 import Misc from './Misc'
@@ -22,8 +23,9 @@ const Root = ({ data }) => {
           <Speaking data={speaking} />
           <Skills data={skills} />
           <Opensource data={opensource} />
-          <Misc />
           <Education text={edu} />
+          <Misc />
+          <Footer />
         </div>
       </body>
     </html>
