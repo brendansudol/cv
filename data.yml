@@ -13,19 +13,20 @@ work:
   time: 2016 — Present
   intro: ~
   bullets:
+  - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
+    aims to be the single, shared, multifactor authentication platform for
+    government websites (2M+ current users). Led initial analytics efforts to
+    capture user events, track business metrics, and identify product
+    opportunities using data.
   - Led development of FBI's first open-source open data web application, the
     Crime Data Explorer. Built with React, Redux, D3.js, and Atomic CSS, this
     interactive tool allows people to view data and trends across a variety of
     crime categories and geographic granularities.
-  - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
-    aims to be the single, shared, multifactor authentication platform for
-    government websites. Led initial analytics efforts to capture user events,
-    track business metrics, and identify product opportunities using data.
   - Provided consulting on modern web practices and engineering systems to
     Department of Labor, Centers for Medicare & Medicaid Services, National
     Endowment for the Arts; conducted interviews for Engineering chapter
     candidates; automated accessibility audits across government websites;
-    mentored junior developers on best practices and patterns.
+    mentored junior developers on best practices.
 
 - title: Adjunct Professor
   employer: American University
