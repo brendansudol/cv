@@ -67,7 +67,7 @@ work:
   - Partnered with product managers, designers, and engineers to make significant,
     iterative improvements to Etsy Homepage.
   - 'Managed a small team focused on buyer growth (2013); Key projects included: a
-    tool to scale SEM by 10x using on-site behavioral data, simplifed email
+    tool to scale SEM by 10x using on-site behavioral data, simplified email
     newsletter signup, gift card experiments to re-engage lapsed buyers, buyer
     referral credits, creation of quantitative attribution model.'
 
@@ -140,16 +140,16 @@ opensource:
     description: >-
       Simplifies process for states to get money for Medicaid projects
   Personal:
-  - name: Vinobot
-    url: http://vinobot.co
-    code: https://github.com/brendansudol/vinobot-app
-    description: A tipsy little robot that generates ridiculous wine tasting notes
-
   - name: Better Know Your Area
     url: http://betterknowyourarea.com
     code: https://github.com/brendansudol/better-know-your-area
     description: >-
       A quick view into social, economic, and housing data across the U.S.
+
+  - name: Vinobot
+    url: http://vinobot.co
+    code: https://github.com/brendansudol/vinobot-app
+    description: A tipsy little robot that generates ridiculous wine tasting notes
 
   - name: DC Food Trucks Today
     url: https://dcfoodtrucks.today
