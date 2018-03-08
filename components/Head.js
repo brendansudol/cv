@@ -41,7 +41,7 @@ const css = `
   }
 
   .container { max-width: 650px; }
-  .mono { font-family: 'Courier Next', courier, monospace; }
+  .mono { font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; }
   .caps { text-transform: uppercase; letter-spacing: .1em; }
   .lower { text-transform: lowercase; }
   .bold { font-weight: 600; }

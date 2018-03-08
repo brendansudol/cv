@@ -9,8 +9,10 @@ const Header = ({ name, phone, email, website }) => (
       <span>{phone}</span>
       <Separator />
       <span>{email}</span>
-      <Separator />
-      <span>{website.display}</span>
+      <span className="xs-hide">
+        <Separator />
+        <span>{website.display}</span>
+      </span>
     </div>
   </div>
 )
