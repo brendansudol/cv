@@ -55,7 +55,7 @@ const css = `
     display: block;
     margin-top: 0.375rem;
     width: 2rem;
-    border: 2px solid #eee;
+    border: 2px solid #ddd;
     border-radius: 0.25rem;
   }
 
