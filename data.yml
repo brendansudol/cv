@@ -15,7 +15,7 @@ work:
   bullets:
   - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
     aims to be the single, shared, multifactor authentication platform for
-    government websites (2M+ current users). Led initial analytics efforts to
+    government websites (4M+ current users). Led initial analytics efforts to
     capture user events, track business metrics, and identify product
     opportunities using data.
   - Led development of FBI's first open-source open data web application, the
@@ -72,16 +72,6 @@ work:
     newsletter signup, gift card experiments to re-engage lapsed buyers, buyer
     referral credits, creation of quantitative attribution model.'
 
-- title: Analyst
-  employer: Cornerstone Research
-  time: 2010 — 2012
-  intro: >-
-    Designed and maintained the quantitative models supporting economic and
-    financial experts in corporate litigation cases pertaining to securities
-    (regression analysis), wage discrimination (lifetime earnings modeling), and
-    antitrust.
-  bullets: ~
-
 - title: Founder
   employer: Zigzag LLC
   time: 2014 — Present
@@ -95,6 +85,16 @@ work:
   - Advise organizations on product development, analytics, and engineering
     systems.
   - Hire and manage additional developers and designers based on client needs.
+
+- title: Analyst
+  employer: Cornerstone Research
+  time: 2010 — 2012
+  intro: >-
+    Designed and maintained the quantitative models supporting economic and
+    financial experts in corporate litigation cases pertaining to securities
+    (regression analysis), wage discrimination (lifetime earnings modeling), and
+    antitrust.
+  bullets: ~
 
 speaking:
 - venue: MozFest

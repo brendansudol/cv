@@ -40,7 +40,7 @@ const css = `
     text-decoration-skip-ink: auto;
   }
 
-  .container { max-width: 650px; }
+  .container { max-width: 620px; }
   .mono { font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace; }
   .caps { text-transform: uppercase; letter-spacing: .1em; }
   .lower { text-transform: lowercase; }
