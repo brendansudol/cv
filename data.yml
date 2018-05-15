@@ -19,7 +19,7 @@ work:
     capture user events, track business metrics, and identify product
     opportunities using data.
   - Led development of FBI's first open-source open data web application, the
-    Crime Data Explorer. Built with React, Redux, D3.js, and Atomic CSS, this
+    Crime Data Explorer. Built with React, Redux, and D3.js, this
     interactive tool allows people to view data and trends across a variety of
     crime categories and geographic granularities.
   - Provided consulting on modern web practices and engineering systems to
@@ -28,7 +28,7 @@ work:
     candidates; automated accessibility audits across government websites;
     mentored junior developers on best practices.
 
-- title: Adjunct Professor
+- title: Adjunct Instructor
   employer: American University
   time: 2018 — Present
   intro: >-
@@ -43,7 +43,7 @@ work:
   time: 2014 — 2016
   intro: ~
   bullets:
-  - As a core developer on the founding team, I led major engineering and product
+  - As a core member of the founding team, I led major engineering and product
     initiatives as we built and grew the company from nothing to $X0,000 monthly
     recurring revenue.
   - Led development of front-end architecture (React, D3.js, and SASS), added key
@@ -74,7 +74,7 @@ work:
 
 - title: Founder
   employer: Zigzag LLC
-  time: 2014 — Present
+  time: 2012 — Present
   intro: >-
     Owner of [Zigzag LLC](http://zigzag.consulting/), a software consultancy
     specializing in web applications and data science projects. Clients include
@@ -85,16 +85,6 @@ work:
   - Advise organizations on product development, analytics, and engineering
     systems.
   - Hire and manage additional developers and designers based on client needs.
-
-- title: Analyst
-  employer: Cornerstone Research
-  time: 2010 — 2012
-  intro: >-
-    Designed and maintained the quantitative models supporting economic and
-    financial experts in corporate litigation cases pertaining to securities
-    (regression analysis), wage discrimination (lifetime earnings modeling), and
-    antitrust.
-  bullets: ~
 
 speaking:
 - venue: MozFest
