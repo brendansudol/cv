@@ -5,149 +5,129 @@ website:
   url: https://brendansudol.com
   display: brendansudol.com
 
-edu: BA with Distinction, Mathematics, University of Virginia
+edu: Mathematics, University of Virginia
 
 work:
-- title: Software Engineer
-  employer: 18F
-  time: 2016 — Present
-  intro: ~
-  bullets:
-  - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
-    aims to be the single, shared, multifactor authentication platform for
-    government websites (4M+ current users). Led initial analytics efforts to
-    capture user events, track business metrics, and identify product
-    opportunities using data.
-  - Led development of FBI's first open-source open data web application, the
-    Crime Data Explorer. Built with React, Redux, and D3.js, this
-    interactive tool allows people to view data and trends across a variety of
-    crime categories and geographic granularities.
-  - Provided consulting on modern web practices and engineering systems to
-    Department of Labor, Centers for Medicare & Medicaid Services, National
-    Endowment for the Arts; conducted interviews for Engineering chapter
-    candidates; automated accessibility audits across government websites;
-    mentored junior developers on best practices.
+  - title: Software Engineer
+    employer: 18F
+    time: 2016 — 2018
+    intro: ~
+    bullets:
+      - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
+        aims to be the single, shared, multifactor authentication platform for
+        government websites (10M+ current users).
+      - Led development of FBI's first open-source open data web application, the
+        Crime Data Explorer. Built with React, Redux, and D3.js, this
+        interactive tool allows people to view data and trends across a variety of
+        crime categories and geographic granularities.
+      - Conducted interviews for Engineering candidates; automated accessibility
+        audits across government websites; mentored junior developers on
+        engineering systems and modern web practices.
 
-- title: Adjunct Instructor
-  employer: American University
-  time: 2018 — Present
-  intro: >-
-    Co-teach an Introduction to Programming course (entitled "Computers and the
-    Law") at American University's Washington College of Law. The course teaches
-    students how to program using Python and how to apply those skills in the legal
-    domain.
-  bullets: ~
+  - title: Adjunct Professor
+    employer: American University
+    time: 2018 — Present
+    intro: >-
+      Co-teach an Introduction to Programming course (entitled "Computers and the
+      Law") at American University's Washington College of Law. The course teaches
+      students how to program using Python and how to apply those skills in the legal
+      domain.
+    bullets: ~
 
-- title: Software Engineer
-  employer: Simon Data
-  time: 2014 — 2016
-  intro: ~
-  bullets:
-  - As a core member of the founding team, I led major engineering and product
-    initiatives as we built and grew the company from nothing to $X0,000 monthly
-    recurring revenue.
-  - Led development of front-end architecture (React, D3.js, and SASS), added key
-    features to the back-end (Python, Django), and wrote MapReduce jobs for our
-    ETL pipeline to populate Redshift with data from a wide set of third-party
-    APIs.
-  - Responsible for prototyping statistical models (churn prediction, customer
-    lifetime value) to improve our segmentation product and drive revenue for our
-    customers.
+  - title: Software Engineer
+    employer: Simon Data
+    time: 2014 — 2016
+    intro: ~
+    bullets:
+      - As a core member of the founding team, I led major engineering and product
+        initiatives as we built and grew the company from nothing to $X0,000 monthly
+        recurring revenue.
+      - Led development of front-end architecture (React, D3.js, SASS), added key
+        features to the back-end (Python, Django), and wrote MapReduce jobs for our
+        ETL pipeline to populate Redshift with data from a wide set of third-party
+        APIs.
+      - Responsible for prototyping statistical models (churn prediction, customer
+        lifetime value) to improve our segmentation product and drive revenue for our
+        customers.
 
-- title: Data Scientist, Analytics
-  employer: Etsy
-  time: 2012 — 2014
-  intro: ~
-  bullets:
-  - Analyzed clickstream and transactional data to understand user behaviors,
-    identify product opportunities, and evaluate & interpret experiments.
-  - Built Etsy's initial Trending Items algorithm and launched product during a
-    hack-week to help buyers discover the best and most popular handmade goods.
-  - Led design and development of tools and dashboards to automate analyses, track
-    product metrics & goals, and visualize & summarize datasets.
-  - Partnered with product managers, designers, and engineers to make significant,
-    iterative improvements to Etsy Homepage.
-  - 'Managed a small team focused on buyer growth (2013); Key projects included: a
-    tool to scale SEM by 10x using on-site behavioral data, simplified email
-    newsletter signup, gift card experiments to re-engage lapsed buyers, buyer
-    referral credits, creation of quantitative attribution model.'
+  - title: Data Scientist
+    employer: Etsy
+    time: 2012 — 2014
+    intro: ~
+    bullets:
+      - Analyzed clickstream and transactional data to understand user behaviors,
+        identify product opportunities, and evaluate & interpret experiments.
+      - Built Etsy's initial Trending Items algorithm and launched product during a
+        hack-week to help buyers discover the best and most popular handmade goods.
+      - Led design and development of tools and dashboards to automate analyses, track
+        product metrics & goals, and visualize & summarize datasets.
+      - Partnered with product managers, designers, and engineers to make significant,
+        iterative improvements to Etsy Homepage.
+      - "Managed a small team focused on buyer growth (2013); Key projects included: a
+        tool to scale SEM by 10x using on-site behavioral data, simplified email
+        newsletter signup, gift card experiments to re-engage lapsed buyers, buyer
+        referral credits, creation of quantitative attribution model."
 
-- title: Founder
-  employer: Zigzag LLC
-  time: 2012 — Present
-  intro: >-
-    Owner of [Zigzag LLC](http://zigzag.consulting/), a software consultancy
-    specializing in web applications and data science projects. Clients include
-    global nonprofits, hedge funds, and startups.
-  bullets:
-  - Write web applications to client specifications using Python (Django),
-    JavaScript (React), and related technologies.
-  - Advise organizations on product development, analytics, and engineering
-    systems.
-  - Hire and manage additional developers and designers based on client needs.
+  - title: Founder
+    employer: Zigzag LLC
+    time: 2012 — Present
+    intro: >-
+      Owner of [Zigzag LLC](http://zigzag.consulting/), a software consultancy
+      specializing in web applications and data science projects. Clients include
+      global nonprofits, hedge funds, and startups.
+    bullets:
+      - Write web applications to client specifications using Python (Django),
+        JavaScript (React), and related technologies.
+      - Advise organizations on product development, analytics, and engineering
+        systems.
+      - Hire and manage additional developers and designers based on client needs.
 
 speaking:
-- venue: MozFest
-  location: London
-  date: October 2017
-  title: 'FBI crime stats: open data, open source, eye-opener'
-  slides: https://brendansudol.com/decks/mozfest/#/
+  - venue: MozFest
+    location: London
+    date: October 2017
+    title: "FBI crime stats: open data, open source, eye-opener"
+    slides: https://brendansudol.com/decks/mozfest/#/
 
-- venue: PyGotham
-  location: NYC
-  date: October 2017
-  title: Intro to Convolutional Neural Networks
-  slides: https://brendansudol.com/decks/not-hotdog/#/
+  - venue: PyGotham
+    location: NYC
+    date: October 2017
+    title: Intro to Convolutional Neural Networks
+    slides: https://brendansudol.com/decks/not-hotdog/#/
 
-- venue: 18F Tech Talk
-  location: Remote
-  date: August 2016
-  title: Atomic CSS
-  slides: https://brendansudol.com/decks/atomic-css/#/
+  - venue: 18F Tech Talk
+    location: Remote
+    date: August 2016
+    title: Atomic CSS
+    slides: https://brendansudol.com/decks/atomic-css/#/
 
 skills:
+  - JavaScript (TypeScript, React, React Native, Redux, D3.js, Node.js)
   - Python (Django, Flask, Pandas, Keras)
-  - JavaScript (ES6, React, React Native, Redux, D3.js, Node.js)
   - HTML
-  - CSS (Sass, PostCSS)
+  - CSS (PostCSS, Sass, Less)
   - SQL
 
 opensource:
-  18F:
-  - name: login.gov
-    url: https://login.gov
-    code: https://github.com/18f/identity-idp
-    description: A shared authentication platform for government services
-
-  - name: FBI Crime Data Explorer
-    url: https://crime-data-explorer.fr.cloud.gov
-    code: https://github.com/18F/crime-data-frontend
-    description: >-
-      Crime trends and datasets at the national, state, and agency levels
-
-  - name: Medicaid HITECH
-    url: ~
-    code: https://github.com/18F/cms-hitech-apd
-    description: >-
-      Simplifies process for states to get money for Medicaid projects
   Personal:
-  - name: Better Know Your Area
-    url: http://betterknowyourarea.com
-    code: https://github.com/brendansudol/better-know-your-area
-    description: >-
-      A quick view into social, economic, and housing data across the U.S.
+    - name: Better Know Your Area
+      url: http://betterknowyourarea.com
+      code: https://github.com/brendansudol/better-know-your-area
+      description: >-
+        A quick view into social, economic, and housing data across the U.S.
 
-  - name: Vinobot
-    url: http://vinobot.co
-    code: https://github.com/brendansudol/vinobot-app
-    description: A tipsy little robot that generates ridiculous wine tasting notes
+    - name: Wemoji
+      url: https://getwemoji.com
+      code: https://github.com/brendansudol/wemoji-cli
+      description: >-
+        An inclusive, animated emoji icon set.
 
-  - name: DC Food Trucks Today
-    url: https://dcfoodtrucks.today
-    code: https://github.com/brendansudol/dc-food-trucks
-    description: A real-time map of food trucks in the DC area
+    - name: Vinobot
+      url: http://vinobot.co
+      code: https://github.com/brendansudol/vinobot-app
+      description: A tipsy little robot that generates silly wine tasting notes (iOS / Android app)
 
-  - name: Uncoverly
-    url: http://www.uncoverly.com
-    code: https://github.com/brendansudol/uncoverly
-    description: Discover the best and most beautiful products on Etsy
+    - name: DC Food Trucks Today
+      url: https://dcfoodtrucks.today
+      code: https://github.com/brendansudol/dc-food-trucks
+      description: A real-time map of food trucks in the DC area

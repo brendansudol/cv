@@ -21,8 +21,6 @@ const Entry = ({ name, url, code, description }) => (
 const Opensource = ({ data }) => (
   <div>
     <Heading>Open-source Projects</Heading>
-    <h3 className="mt0 mb2 h4 regular">18F:</h3>
-    {data['18F'].map((d, i) => <Entry key={i} {...d} />)}
     <h3 className="mt0 mb2 h4 regular">Personal:</h3>
     {data['Personal'].map((d, i) => <Entry key={i} {...d} />)}
     <p>
