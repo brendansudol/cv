@@ -9,11 +9,22 @@ edu: Mathematics, University of Virginia
 
 work:
   - title: Software Engineer
+    employer: Palantir
+    time: 2018 — Present
+    intro: ~
+    bullets:
+      - Building applications and tools for large-scale data analysis and
+        visualization using modern web technologies (TypeScript, React, Redux).
+        Projects include a highly performant canvas-based tool for handling tabular data,
+        and a self-service platform that allows users to define configuration
+        files that are parsed at runtime in the browser to generate custom, reactive forms.
+
+  - title: Software Engineer
     employer: 18F
     time: 2016 — 2018
     intro: ~
     bullets:
-      - Served as lead front-end engineer on login.gov, a joint 18F/USDS project that
+      - Tech lead (front-end) on login.gov, a joint 18F/USDS project that
         aims to be the single, shared, multifactor authentication platform for
         government websites (10M+ current users).
       - Led development of FBI's first open-source open data web application, the
@@ -24,24 +35,13 @@ work:
         audits across government websites; mentored junior developers on
         engineering systems and modern web practices.
 
-  - title: Adjunct Professor
-    employer: American University
-    time: 2018 — Present
-    intro: >-
-      Co-teach an Introduction to Programming course (entitled "Computers and the
-      Law") at American University's Washington College of Law. The course teaches
-      students how to program using Python and how to apply those skills in the legal
-      domain.
-    bullets: ~
-
   - title: Software Engineer
     employer: Simon Data
     time: 2014 — 2016
     intro: ~
     bullets:
       - As a core member of the founding team, I led major engineering and product
-        initiatives as we built and grew the company from nothing to $X0,000 monthly
-        recurring revenue.
+        initiatives as we built and grew the company from the ground up.
       - Led development of front-end architecture (React, D3.js, SASS), added key
         features to the back-end (Python, Django), and wrote MapReduce jobs for our
         ETL pipeline to populate Redshift with data from a wide set of third-party
@@ -55,29 +55,39 @@ work:
     time: 2012 — 2014
     intro: ~
     bullets:
-      - Analyzed clickstream and transactional data to understand user behaviors,
-        identify product opportunities, and evaluate & interpret experiments.
-      - Built Etsy's initial Trending Items algorithm and launched product during a
+      - Built Trending Items algorithm and launched product during a
         hack-week to help buyers discover the best and most popular handmade goods.
       - Led design and development of tools and dashboards to automate analyses, track
         product metrics & goals, and visualize & summarize datasets.
       - Partnered with product managers, designers, and engineers to make significant,
         iterative improvements to Etsy Homepage.
-      - "Managed a small team focused on buyer growth (2013); Key projects included: a
-        tool to scale SEM by 10x using on-site behavioral data, simplified email
-        newsletter signup, gift card experiments to re-engage lapsed buyers, buyer
-        referral credits, creation of quantitative attribution model."
+      - Analyzed clickstream and transactional data to understand user behaviors,
+        identify product opportunities, and evaluate & interpret experiments.
+      - "Managed a small team focused on buyer growth (2013); Key projects included:
+        a tool to scale SEM by 10x using on-site behavioral data, creation of
+        quantitative attribution model, simplified signup flow, gift card
+        experiments to re-engage lapsed buyers"
+
+  - title: Adjunct Professor
+    employer: American University
+    time: 2018 — 2019
+    intro: >-
+      Co-teach an Introduction to Programming course (entitled "Computers and the
+      Law") at American University's Washington College of Law. The course teaches
+      students how to program using Python and how to apply those skills in the legal
+      domain.
+    bullets: ~
 
   - title: Founder
     employer: Zigzag LLC
-    time: 2012 — Present
+    time: 2014 — 2018
     intro: >-
       Owner of [Zigzag LLC](http://zigzag.consulting/), a software consultancy
       specializing in web applications and data science projects. Clients include
       global nonprofits, hedge funds, and startups.
     bullets:
-      - Write web applications to client specifications using Python (Django),
-        JavaScript (React), and related technologies.
+      - Write web applications using Python (Django), JavaScript (React), and
+        related technologies.
       - Advise organizations on product development, analytics, and engineering
         systems.
       - Hire and manage additional developers and designers based on client needs.
@@ -86,7 +96,7 @@ speaking:
   - venue: MozFest
     location: London
     date: October 2017
-    title: "FBI crime stats: open data, open source, eye-opener"
+    title: "Lessons learned from FBI’s first open source open data project"
     slides: https://brendansudol.com/decks/mozfest/#/
 
   - venue: PyGotham
@@ -108,26 +118,25 @@ skills:
   - CSS (PostCSS, Sass, Less)
   - SQL
 
-opensource:
-  Personal:
-    - name: Better Know Your Area
-      url: http://betterknowyourarea.com
-      code: https://github.com/brendansudol/better-know-your-area
-      description: >-
-        A quick view into social, economic, and housing data across the U.S.
+projects:
+  - name: Better Know Your Area
+    url: http://betterknowyourarea.com
+    code: https://github.com/brendansudol/better-know-your-area
+    description: >-
+      A quick view into social, economic, and housing data across the U.S.
 
-    - name: Wemoji
-      url: https://getwemoji.com
-      code: https://github.com/brendansudol/wemoji-cli
-      description: >-
-        An inclusive, animated emoji icon set.
+  - name: Wemoji
+    url: https://getwemoji.com
+    code: https://github.com/brendansudol/wemoji-cli
+    description: >-
+      An inclusive, animated emoji icon set.
 
-    - name: Vinobot
-      url: http://vinobot.co
-      code: https://github.com/brendansudol/vinobot-app
-      description: A tipsy little robot that generates silly wine tasting notes (iOS / Android app)
+  - name: Vinobot
+    url: http://vinobot.co
+    code: https://github.com/brendansudol/vinobot-app
+    description: A tipsy little robot that generates silly wine tasting notes (iOS / Android app)
 
-    - name: DC Food Trucks Today
-      url: https://dcfoodtrucks.today
-      code: https://github.com/brendansudol/dc-food-trucks
-      description: A real-time map of food trucks in the DC area
+  - name: DC Food Trucks Today
+    url: https://dcfoodtrucks.today
+    code: https://github.com/brendansudol/dc-food-trucks
+    description: A real-time map of food trucks in the DC area
