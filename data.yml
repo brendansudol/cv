@@ -15,9 +15,9 @@ work:
     bullets:
       - Building applications and tools for large-scale data analysis and
         visualization using modern web technologies (TypeScript, React, Redux).
-        Projects include a highly performant canvas-based tool for handling tabular data,
-        and a self-service platform that allows users to define configuration
-        files that are parsed at runtime in the browser to generate custom, reactive forms.
+        Projects include a highly performant canvas-based tool for tabular data,
+        and a self-service platform that lets users define configuration files
+        that are parsed at runtime in the browser to generate custom, reactive forms.
 
   - title: Software Engineer
     employer: 18F
@@ -26,14 +26,11 @@ work:
     bullets:
       - Tech lead (front-end) on login.gov, a joint 18F/USDS project that
         aims to be the single, shared, multifactor authentication platform for
-        government websites (10M+ current users).
-      - Led development of FBI's first open-source open data web application, the
-        Crime Data Explorer. Built with React, Redux, and D3.js, this
-        interactive tool allows people to view data and trends across a variety of
-        crime categories and geographic granularities.
-      - Conducted interviews for Engineering candidates; automated accessibility
-        audits across government websites; mentored junior developers on
-        engineering systems and modern web practices.
+        government websites (10M+ users).
+      - Led development of FBI's first open-source open data web application. Built
+        with React, Redux, and D3.js, this interactive tool allows users to view
+        data and trends across a variety of crime categories and geographic granularities.
+      - Conducted interviews for engineering candidates and mentored junior developers.
 
   - title: Software Engineer
     employer: Simon Data
@@ -72,10 +69,9 @@ work:
     employer: American University
     time: 2018 — 2019
     intro: >-
-      Co-teach an Introduction to Programming course (entitled "Computers and the
-      Law") at American University's Washington College of Law. The course teaches
-      students how to program using Python and how to apply those skills in the legal
-      domain.
+      Co-taught an Computer Programming for Lawyers course  at American University's
+      Washington College of Law. The course teaches students how to program using
+      Python and how to apply those skills in the legal domain.
     bullets: ~
 
   - title: Founder
@@ -95,20 +91,20 @@ work:
 speaking:
   - venue: MozFest
     location: London
-    date: October 2017
-    title: "Lessons learned from FBI’s first open source open data project"
+    date: Oct 2017
+    title: "Lessons learned from FBI’s first open source project"
     slides: https://brendansudol.com/decks/mozfest/#/
 
   - venue: PyGotham
     location: NYC
-    date: October 2017
+    date: Oct 2017
     title: Intro to Convolutional Neural Networks
     slides: https://brendansudol.com/decks/not-hotdog/#/
 
   - venue: 18F Tech Talk
     location: Remote
-    date: August 2016
-    title: Atomic CSS
+    date: Aug 2016
+    title: Learning to love Atomic CSS
     slides: https://brendansudol.com/decks/atomic-css/#/
 
 skills:
