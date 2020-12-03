@@ -14,22 +14,19 @@ work:
     intro: ~
     bullets:
       - Building applications and tools for large-scale data analysis and
-        visualization using modern web technologies (TypeScript, React, Redux).
-        Projects include a highly performant canvas-based tool for tabular data,
-        and a self-service platform that lets users define configuration files
-        that are parsed at runtime in the browser to generate custom, reactive forms.
+        visualization using modern web technologies (TypeScript, React, Electron).
 
   - title: Software Engineer
     employer: 18F
     time: 2016 — 2018
     intro: ~
     bullets:
-      - Tech lead (front-end) on login.gov, a joint 18F/USDS project that
-        aims to be the single, shared, multifactor authentication platform for
-        government websites (10M+ users).
-      - Led development of FBI's first open-source open data web application. Built
-        with React, Redux, and D3.js, this interactive tool allows users to view
-        data and trends across a variety of crime categories and geographic granularities.
+      - Front-end lead on [login.gov](https://login.gov/), a joint 18F/USDS project that
+        aims to be the single, shared, multi-factor authentication platform for
+        government websites (15M+ users).
+      - Led development of various web applications in partnership with government
+        agencies including the FBI (visualized data and trends across crime categories
+        and geographies) and HHS (streamlined state funding for Medicaid programs).
       - Conducted interviews for engineering candidates and mentored junior developers.
 
   - title: Software Engineer
@@ -37,9 +34,9 @@ work:
     time: 2014 — 2016
     intro: ~
     bullets:
-      - As a core member of the founding team, I led major engineering and product
-        initiatives as we built and grew the company from the ground up.
-      - Led development of front-end architecture (React, D3.js, SASS), added key
+      - As a core member of the founding team, I drove major engineering and product
+        initiatives as we built and grew this data analytics startup from the ground up.
+      - Led development of front-end architecture (React, D3.js, Sass), added key
         features to the back-end (Python, Django), and wrote MapReduce jobs for our
         ETL pipeline to populate Redshift with data from a wide set of third-party
         APIs.
@@ -53,7 +50,7 @@ work:
     intro: ~
     bullets:
       - Built Trending Items algorithm and launched product during a
-        hack-week to help buyers discover the best and most popular handmade goods.
+        hack week to help buyers discover the best and most popular handmade goods.
       - Led design and development of tools and dashboards to automate analyses, track
         product metrics & goals, and visualize & summarize datasets.
       - Partnered with product managers, designers, and engineers to make significant,
@@ -62,8 +59,7 @@ work:
         identify product opportunities, and evaluate & interpret experiments.
       - "Managed a small team focused on buyer growth (2013); Key projects included:
         a tool to scale SEM by 10x using on-site behavioral data, creation of
-        quantitative attribution model, simplified signup flow, gift card
-        experiments to re-engage lapsed buyers"
+        quantitative attribution model, simplified signup flow"
 
   - title: Adjunct Professor
     employer: American University
@@ -108,7 +104,7 @@ speaking:
     slides: https://brendansudol.com/decks/atomic-css/#/
 
 skills:
-  - JavaScript (TypeScript, React, React Native, Redux, D3.js, Node.js)
+  - JavaScript (TypeScript, React, React Native, Redux, D3.js, Canvas, Node.js)
   - Python (Django, Flask, Pandas, Keras)
   - HTML
   - CSS (PostCSS, Sass, Less)
@@ -131,8 +127,3 @@ projects:
     url: http://vinobot.co
     code: https://github.com/brendansudol/vinobot-app
     description: A tipsy little robot that generates silly wine tasting notes (iOS / Android app)
-
-  - name: DC Food Trucks Today
-    url: https://dcfoodtrucks.today
-    code: https://github.com/brendansudol/dc-food-trucks
-    description: A real-time map of food trucks in the DC area

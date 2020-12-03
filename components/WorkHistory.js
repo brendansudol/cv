@@ -1,7 +1,7 @@
-import marked from 'marked'
-import React from 'react'
+import marked from "marked"
+import React from "react"
 
-import Heading from './Heading'
+import Heading from "./Heading"
 
 const WorkHistory = ({ data }) => (
   <div>
@@ -16,9 +16,11 @@ const WorkHistory = ({ data }) => (
         {bullets && (
           <ul className="list-flush">
             {bullets.map((b, i) => (
-              <li key={i} className="mb1">
-                {b}
-              </li>
+              <li
+                key={i}
+                className="mb1"
+                dangerouslySetInnerHTML={{ __html: marked.parseInline(b) }}
+              />
             ))}
           </ul>
         )}
